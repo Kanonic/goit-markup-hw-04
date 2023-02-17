@@ -57,43 +57,48 @@ body{
 /*HEADER*/
 
 .header{
-    height: 72px;
-    background-color: var(--snow-white);
+   height: 72px;
+   background-color: var(--snow-white);
+
+   border-bottom: 1px solid var(--cornflower);
+   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+               0px 1px 1px rgba(46, 47, 66, 0.16), 
+               0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .link-logo{
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex; 
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--navy-blue);
-    text-decoration: none;
+   font-family: 'Raleway';
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.33;
+   display: flex; 
+   align-items: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--navy-blue);
+   text-decoration: none;
 
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-right: 76px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   margin-right: 76px;
 
 }
 
 .link-logo span{
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
-    text-decoration: none;
+   font-family: 'Raleway';
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.33;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--iris);
+   text-decoration: none;
 }
 
 .position {
-    display:flex;
+   display:flex;
 
 }
 
@@ -119,117 +124,116 @@ body{
 }
 
 .site-nav {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-    text-decoration: none;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--navy-blue);
+   text-decoration: none;
 
-    padding-top: 24px;
-    padding-bottom: 24px;
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 
 
 .site-nav:hover,
 .site-nav:focus {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--ocean);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--ocean);
 }
 
 .site-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-    text-decoration: none;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--slate);
+   text-decoration: none;
 }
 
 .mail-position{
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-right: 40px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   margin-right: 40px;
 }
 
 .tell-position {
-    padding-top: 24px;
-    padding-bottom: 24px;  
+   padding-top: 24px;
+   padding-bottom: 24px;  
 }
 
 .site-link{
-    padding-top: 24px;
-    padding-bottom: 24px;     
+ padding-top: 24px;
+   padding-bottom: 24px;     
 }
 
 .site-link:hover,
 .site-link:focus {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--ocean);
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--ocean);
 }
 
 /*MAIN*/
 
 .section {
-    padding:120px 0;
+   padding:120px 0;
 
 }
 .section-one {
-    background-color: var(--navy-blue);
-    height: 600px;
-    max-width: 1440px;
-    padding: 188px 0;
-    margin: 0 auto;
-    background-image: linear-gradient(
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),
-    url(../images/hero-img.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+   background-color: var(--navy-blue);
+   max-width: 1440px;
+   padding: 188px 0;
+   margin: 0 auto;
+   background-image: linear-gradient(
+   rgba(46, 47, 66, 0.7),
+   rgba(46, 47, 66, 0.7)),
+   url(../images/hero-img.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 
 .hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--snow-white);
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: var(--snow-white);
 
-    max-width: 494px;
-    margin: 0 auto 48px;
+   max-width: 494px;
+   margin: 0 auto 48px;
 }
 
 .button-service {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: var(--snow-white);
+   font-family: inherit;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.04em;
+   color: var(--snow-white);
 
-    background-color: var(--iris);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
+   background-color: var(--iris);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   border: none;
 
-    padding: 16px 32px;
-    margin: 0 auto;
+   padding: 16px 32px;
+   margin: 0 auto;
 
 }
 
 .button-service:hover,
 .button-service:focus {
-    background: var(--ocean);
-    cursor: pointer;
+   background: var(--ocean);
+   cursor: pointer;
 } 
 
 .work-strategy{
@@ -246,29 +250,29 @@ body{
 }
 
 .icon{
-    margin: 24px auto;
-    background-color: var(--cloud);
+   margin: 24px auto;
+   background-color: var(--cloud);
 }
 
 .section-work{
-    padding-bottom: 120px;
+   padding-bottom: 120px;
 }
 
 .section-three{
-    background-color: var(--cloud);
-    padding-top: 120px;
-    padding-bottom: 110px;
+   background-color: var(--cloud);
+   padding-top: 120px;
+   padding-bottom: 110px;
 }
 
 .heading-two{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
 
-    margin-bottom: 72px;
+   margin-bottom: 72px;
 
 }
 
@@ -349,12 +353,16 @@ body{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--slate);
-   max-width: 264px;
 }
 
 
 .text-about-position {
    margin-right: 24px;
+}
+
+.section-customers {
+   padding-top: 130px;
+   padding-bottom: 120px;
 }
 
 .customers-container{
@@ -372,31 +380,28 @@ body{
    letter-spacing: 0.02em;
    text-transform: capitalize;
 
-   margin: 130px 0 72px;
+   margin-bottom: 72px;
 }
-
 .customers {
    list-style: none;
 
    display: flex;
    gap: 24px;
-   margin-bottom: 120px;
 }
 
-.customers-list {
-   
-}
-
-.customers-icon {
+.customers-link {
    display: flex;
    border: 1px solid var(--light-slate);
    border-radius: 4px;
-   fill:var(--light-slate) ;
-   
+   fill: var(--light-slate);
+}
+
+.customers-icon {
    padding: 16px 32px;
 }
 
-.customers-icon:hover {
+.customers-link:hover,
+.customers-link:focus {
    fill: var(--ocean);
    border: 1px solid var(--ocean);
    border-radius: 4px;
@@ -411,16 +416,19 @@ body{
    padding: 100px 0;
 }
 
+
 .container-footer {
    max-width: 1158px;
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;
+
    display: flex;
    gap: 120px;
 }
 
-.container-footer h3 {
+
+.social-networks-footer-p {
    color: var(--snow-white);
 
    font-weight: 500;
@@ -441,31 +449,31 @@ body{
 }
 
 .link-logo-footer {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--cloud);
-    text-decoration: none;
+   font-family: 'Raleway';
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.166;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--cloud);
+   text-decoration: none;
 
-    margin-bottom: 16px;
+   margin-bottom: 16px;
 }
 
 .link-logo-footer span {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
-    text-decoration: none;
+   font-family: 'Raleway';
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.16;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--iris);
+   text-decoration: none;
 }
 
 
@@ -475,10 +483,9 @@ body{
    gap: 16px;
    align-items: center;
    justify-content: center;
-
 }
 
-.social-link-footer{
+.social-link-footer {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -488,7 +495,8 @@ body{
    border-radius: 50%;
 }
 
-.social-link-footer:hover {
+.social-link-footer:hover,
+.social-link-footer:focus {
    background-color: var(--green);
 }
 
@@ -530,9 +538,11 @@ body{
    cursor: pointer;
 
    background: var(--ocean);
+
    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
                0px 2px 1px rgba(0, 0, 0, 0.08), 
                0px 2px 2px rgba(0, 0, 0, 0.12);
+   border-color: var(--ocean);
    border-radius: 4px;
 
    font-weight: 500;
@@ -544,10 +554,10 @@ body{
    color: var(--snow-white);
 }
 
-.work-examples  {
+.work-examples {
    text-decoration: none;
-
 }
+
 .work-examples h2 {
    margin-bottom: 8px;
 }
@@ -556,25 +566,36 @@ body{
    display: flex;
    flex-wrap: wrap;
    grid-gap: 48px 24px;
+
 }    
 
 .product-list {
    list-style: none;
+
 }
 
+
 .product-description {
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+   padding: 32px 0 32px 16px;  
+
    border-right: 1px solid var(--cornflower);
    border-bottom: 1px solid var(--cornflower);
    border-left: 1px solid var(--cornflower);
-   padding: 32px 0 32px 16px;  
 }
 
-.product-description:hover {
+.product-list:hover, 
+.product-list:focus {
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                0px 1px 1px rgba(46, 47, 66, 0.16),
                0px 2px 1px rgba(46, 47, 66, 0.08);
-   border-right: 0.5px solid var(--cloud);
-   border-bottom: 0.5px solid var(--cloud);
-   border-left: 0.5px solid var(--cloud);
+}
+
+.product-list:hover .product-description, 
+.product-list:focus .product-description {
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 2px 1px rgba(46, 47, 66, 0.08);
+   border-right: 1px solid var(--cloud);
+   border-bottom: 1px solid var(--cloud);
+   border-left: 1px solid var(--cloud);
 }
